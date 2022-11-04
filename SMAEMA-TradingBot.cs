@@ -53,8 +53,8 @@ namespace NinjaTrader.NinjaScript.Strategies
 			}
 			if (State == State.Configure)
 			{
-				SetProfitTarget(CalculationMode.Percent, 0.2);
-				SetStopLoss(CalculationMode.Percent, 0.06);
+				SetProfitTarget(CalculationMode.Percent, 0.06);
+				SetStopLoss(CalculationMode.Percent, 0.02);
 				AddChartIndicator(EMA(12));
 				AddChartIndicator(EMA(26));
 				AddChartIndicator(SMA(10));
