@@ -1,8 +1,8 @@
 # SMA-EMA-TradingBot
-- This is a basic trading bot that was created using Ninja Script 8
-- This bot is fully Autonomous and can generate income on the side
-- The trading bot relies on the momentum of EMAs and SMAs to place in a trade
-- The Trading Bot relies on 1min candles and was backtested using btc/usd
+- Basic trading bot that was created using Ninja Script 8
+- Fully Autonomous and can generate income on the side
+- Relies on the momentum of EMAs and SMAs to place in a trade
+- Relies on 1min candles and was backtested using btc/usd
 
 ![sum](https://user-images.githubusercontent.com/109917826/199863044-ab0d727d-492e-478c-84db-3bcd7ca58b76.JPG)
 
