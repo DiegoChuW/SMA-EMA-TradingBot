@@ -55,6 +55,10 @@ namespace NinjaTrader.NinjaScript.Strategies
 			{
 				SetProfitTarget(CalculationMode.Percent, 0.2);
 				SetStopLoss(CalculationMode.Percent, 0.06);
+				AddChartIndicator(EMA(12));
+				AddChartIndicator(EMA(26));
+				AddChartIndicator(SMA(10));
+				AddChartIndicator(SMA(20));
 			}
 		}
 
