@@ -33,23 +33,21 @@ namespace NinjaTrader.NinjaScript.Strategies
 				Description									= @"Enter the description for your new custom Strategy here.";
 				Name										= "TradingBot";
 				Calculate									= Calculate.OnBarClose;
-				EntriesPerDirection							= 1;
-				EntryHandling								= EntryHandling.AllEntries;
-				IsExitOnSessionCloseStrategy				= true;
-				ExitOnSessionCloseSeconds					= 30;
-				IsFillLimitOnTouch							= false;
-				MaximumBarsLookBack							= MaximumBarsLookBack.TwoHundredFiftySix;
-				OrderFillResolution							= OrderFillResolution.Standard;
+				EntriesPerDirection							        = 1;
+				EntryHandling								        = EntryHandling.AllEntries;
+				IsExitOnSessionCloseStrategy				                        = true;
+				ExitOnSessionCloseSeconds					                = 30;
+				IsFillLimitOnTouch							        = false;
+				MaximumBarsLookBack							        = MaximumBarsLookBack.TwoHundredFiftySix;
+				OrderFillResolution							        = OrderFillResolution.Standard;
 				Slippage									= 0;
-				StartBehavior								= StartBehavior.WaitUntilFlat;
+				StartBehavior								        = StartBehavior.WaitUntilFlat;
 				TimeInForce									= TimeInForce.Gtc;
 				TraceOrders									= false;
-				RealtimeErrorHandling						= RealtimeErrorHandling.StopCancelClose;
-				StopTargetHandling							= StopTargetHandling.PerEntryExecution;
-				BarsRequiredToTrade							= 20;
-				// Disable this property for performance gains in Strategy Analyzer optimizations
-				// See the Help Guide for additional information
-				IsInstantiatedOnEachOptimizationIteration	= true;
+				RealtimeErrorHandling						                = RealtimeErrorHandling.StopCancelClose;
+				StopTargetHandling							        = StopTargetHandling.PerEntryExecution;
+				BarsRequiredToTrade							        = 20;
+				IsInstantiatedOnEachOptimizationIteration	                                = true;
 			}
 			if (State == State.Configure)
 			{
